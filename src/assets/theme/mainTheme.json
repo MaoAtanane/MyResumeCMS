@@ -1,0 +1,8 @@
+{
+    "backgroundColor":"#0A192F",
+    "primaryFontColor":"#CCD6F6",
+    "secondaryFontColor":"#8892B0",
+    "thirdFontColor":"#47FFDA",
+    "buttonBackgroundHover":"rgb(71, 255, 218,0.2)",
+    "buttonBackground":"rgb(71, 255, 218,0.1)"
+}
