@@ -1,6 +1,4 @@
 import React from 'react';
-import { SlideDown } from 'react-slidedown'
-import 'react-slidedown/lib/slidedown.css'
 import { styles } from './Main-styles'
 import About from '../../components/About'
 import Intro from '../../components/Intro'
