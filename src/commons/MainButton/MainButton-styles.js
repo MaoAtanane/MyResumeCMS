@@ -3,6 +3,7 @@ import myTheme from '../../assets/theme/mainTheme.json'
 const theme = myTheme;
 const myStyle = {
     width: "200px",
+    height: "50px",
     color: theme.thirdFontColor,
     borderRadius: "10px",
     border: "solid",
@@ -10,7 +11,6 @@ const myStyle = {
     textDecoration: "none",
     display: "inline-block",
     fontSize: "15px",
-    height: "50px",
     cursor: 'pointer',
     borderWidth: 'thin',
 

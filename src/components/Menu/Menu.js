@@ -1,17 +1,39 @@
 import React from 'react';
 import {styles} from './Menu-styles'
 import logo from '../../assets/pictures/logo.png'
+import MainButton from '../../commons/MainButton'
+
 const Menu = () => {
   return (
-    <div style={{}}>
-      <div>
+    <div style={styles.body}>
+      <div style={styles.logoBlock}>
         <img style={styles.img} src={logo}/>
       </div>
-      <div>
-        <div>
-          <p>01.</p>
-          <p>test1</p>
+      <div style={styles.menuBlock}>
+        <a href='#about2' style={styles.menuItem}> 
+          <p style={styles.menuNumber}>01.</p>
+          <p style={styles.menuText}>About</p>
+        </a>
+
+        <a href='#experience' style={styles.menuItem}> 
+          <p style={styles.menuNumber}>02.</p>
+          <p style={styles.menuText}>Experience</p>
+        </a>
+
+        <a href='#work' style={styles.menuItem}> 
+          <p style={styles.menuNumber}>02.</p>
+          <p style={styles.menuText}>Work</p>
+        </a>
+
+        <a href='#contact' style={styles.menuItem}> 
+          <p style={styles.menuNumber}>04.</p>
+          <p style={styles.menuText}>Contact</p>
+        </a>
+
+        <div style={styles.menuItem}> 
+          <MainButton style={styles.resumeButton}> Resume </MainButton>
         </div>
+
       </div>
     </div>
   );
