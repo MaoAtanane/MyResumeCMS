@@ -10,13 +10,13 @@ const About = (props) => {
     const leftButton = () => {
         setMyStyle(false)
     }
-
+    const useStyle = myStyle ? {...hoverStyle,...props.style} : {...styles,...props.style} ;
     return (
         <>
         <button
             onMouseEnter={overButton}
             onMouseLeave={leftButton}
-            style={myStyle?hoverStyle : styles}>
+            style={useStyle}>
 
             {props.children}
     </button>
