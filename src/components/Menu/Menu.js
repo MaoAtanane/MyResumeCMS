@@ -31,7 +31,7 @@ const Menu = () => {
         </a>
 
         <div style={styles.menuItem}> 
-          <MainButton style={styles.resumeButton}> Resume </MainButton>
+          <MainButton a={{href:"/cv.pdf", target:"_blank"}} style={styles.resumeButton}> Resume </MainButton>
         </div>
 
       </div>

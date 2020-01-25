@@ -8,7 +8,7 @@ const About = (props) => {
         <h1 style={styles.name}>Abdel Maoula ATANANE</h1>
         <h2 style={styles.profession}> I am a fullstack software engenieer</h2>
         <p style={styles.description}>I'm a software engineer based in Paris, France specializing in building (and occasionally designing) exceptional, high-quality websites and applications.</p>
-        <MainButton> Get in touch </MainButton>
+        <MainButton a={{href:'mailto:abdel.maoula.atanane@gmail.com'}}> Get in touch </MainButton>
     </div>
   );
 }
