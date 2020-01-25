@@ -13,7 +13,7 @@ const myStyle = {
     fontSize: "15px",
     cursor: 'pointer',
     borderWidth: 'thin',
-
+    
 }
 export const styles = {
     ...myStyle,

@@ -18,7 +18,6 @@ const MainPage = () => {
 
       <div style={styles.midlePart}>
         <Intro id='intro' />
-        <About id='about' />
       </div>
 
       <div style={styles.rightBar}>
